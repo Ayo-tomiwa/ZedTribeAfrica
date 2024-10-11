@@ -5,6 +5,8 @@ import program_1 from '../../assets/program1.jpg'
 import program_2 from '../../assets/Program_2.jpg'
 import { SiCodementor } from "react-icons/si";
 import { SiFreecodecamp } from "react-icons/si";
+import { TfiBook } from "react-icons/tfi";
+
 
 
 const Programs = () => {
@@ -32,7 +34,7 @@ const Programs = () => {
             <img src={program_2} alt="" />
             <div className="caption">
               <span className='icon'>
-              <SiFreecodecamp />
+              <TfiBook />
               </span>
                 <p>Word For One</p>
             </div>

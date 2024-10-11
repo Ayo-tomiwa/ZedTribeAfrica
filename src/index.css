@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgba(221, 221, 221, 0.7);
+    background-color: #FEFEFE;
 }
 
 a{
@@ -34,4 +34,11 @@ a{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn:hover{
+    /* transform: scale(1.1); */
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
 }

@@ -33,16 +33,13 @@ nav ul li{
 nav ul .hover:hover{
     border-bottom: 2px solid white;
     padding-bottom: 5px;
-    font-size: 16.5px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .nav ul .btn{
     position: relative;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.24s ease-in-out;
 }
 
-nav ul .btn:hover{
-    transform: scale(1.1);
-}
+
 
