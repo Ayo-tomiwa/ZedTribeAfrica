@@ -41,5 +41,10 @@ nav ul .hover:hover{
     transition: transform 0.24s ease-in-out;
 }
 
+.dark-nav{
+    background: #360167;
+    transition: 0.5s;
+}
+
 
 
