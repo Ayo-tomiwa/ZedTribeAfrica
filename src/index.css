@@ -27,18 +27,20 @@ a{
     color: #212121;
     padding: 14px 25px;
     border-radius: 30px;
+    border: 1px solid transparent;
     font-size: 15px;
-    border: 0;
     outline: 0;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.67s ease;
+    will-change: transform;
 }
 
 .btn:hover{
-    /* transform: scale(1.1); */
     background-color: transparent;
     color: #fff;
     border: 1px solid white;
+    transform: scale(1.06);
 }
