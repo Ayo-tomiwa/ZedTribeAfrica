@@ -2,8 +2,8 @@ import React, { useRef } from 'react'
 import './testimonials.css'
 import { IoArrowForwardCircle } from "react-icons/io5";
 import { IoArrowBackCircle } from "react-icons/io5";
-import user_1 from '../../assets/user--1.jpg';
-import user_2 from '../../assets/user__2.jpg';
+import user_1 from '../../assets/user-1.jpg';
+import user_2 from '../../assets/user-2.jpg';
 import user_3 from '../../assets/user-3.jpg';
 import user_4 from '../../assets/user-4.avif';
 
@@ -11,7 +11,7 @@ import user_4 from '../../assets/user-4.avif';
 const Testimonials = () => {
 
     const slider = useRef();
-    let tx = 0;
+    let tx = 0
 
 const slideForward = ()=>{
     if(tx > -50){

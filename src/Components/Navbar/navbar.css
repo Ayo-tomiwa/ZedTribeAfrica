@@ -35,7 +35,7 @@ nav ul .hover:hover{
 
 .nav ul .btn{
     position: relative;
-    transition: transform 0.24s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 
 .dark-nav{
