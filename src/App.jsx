@@ -5,6 +5,7 @@ import Programs from './Components/Programs/programs'
 import Title  from './Components/Title/title'
 import About from './Components/About/about'
 import Sponsor from './Components/Sponsor/sponsor'
+import Testimonials from './Components/Testimonials/testimonials'
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
         <About/>
         <Title subTitle='Sponsor Us' title='Become a Sponsor'/>
         <Sponsor/>
+        <Title subTitle='TESTIMONIALS' title="Real Teen Experiences"/>
+        <Testimonials/>
       </div>
     </div>
   )
