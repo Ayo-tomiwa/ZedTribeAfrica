@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './testimonials.css'
 import { IoArrowForwardCircle } from "react-icons/io5";
 import { IoArrowBackCircle } from "react-icons/io5";
@@ -10,10 +10,20 @@ import user_4 from '../../assets/user-4.avif';
 
 const Testimonials = () => {
 
-const slideForward = ()=>{
+    const slider = useRef();
+    let tx = 0;
 
+const slideForward = ()=>{
+    if(tx > -50){
+        tx -= 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
 } 
 const slideBackward = ()=>{
+    if(tx < 0){
+        tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
     
 } 
 
@@ -27,7 +37,7 @@ const slideBackward = ()=>{
         <IoArrowBackCircle />
         </div>
         <div className="slider">
-            <ul>
+            <ul ref={slider}>
                 <li>
                     <div className='slide'>
                         <div className="user-info">
