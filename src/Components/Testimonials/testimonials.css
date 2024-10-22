@@ -68,3 +68,43 @@
 .user-info h3{
     color: #2b0151;
 }
+
+/* Media Query */
+
+@media (max-width: 800px) {
+    .testimonials{
+        padding: 0 40px;
+    }
+    .back-btn, .forward-btn{
+        padding: 10px;
+        width: 35px;
+        height: 35px;   
+        font-size: 35px;
+
+    }
+    .testimonials ul li{
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .slide img{
+        width: 50px;
+        border: 2px solid #2b0151;
+    }
+}
+
+@media (max-width: 600px) {
+    .user-info{
+        display: block;
+        margin-bottom: 10px;
+    }   
+
+    .user-info h3{
+        font-size: 16px;
+    }
+    
+    .slider p{
+        font-size: 15px;
+    }
+}

@@ -63,3 +63,16 @@
     background-color: #2b0151;
     color: white;
 }
+
+/* Media Query */
+
+@media (max-width: 700px) {
+    .contact{
+        display: block;
+    }
+
+    .contact-col{
+        padding: 20px;
+    }
+    
+}

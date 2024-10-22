@@ -46,3 +46,22 @@ a{
     border: 1px solid white;
     transform: scale(1.06);
 }
+
+/* Media Query */
+@media (max-width: 1200px), (max-width: 1280px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+    
+}
+
+@media (max-width: 510px) {
+    .container{
+        overflow: hidden;
+    }
+    
+}

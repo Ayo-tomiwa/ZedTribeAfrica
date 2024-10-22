@@ -1,4 +1,4 @@
-.sponsor-us {
+.sponsor {
     background-image: url(../../assets/mentoring-bgc.jpeg);
     background-size: cover;
     background-position: center;
@@ -59,3 +59,53 @@
 }
 
 
+/* Media Query */
+
+@media (max-width: 900px) {
+    .sponsor{
+        text-align: center;
+        align-items: center;
+    }
+    .overlay p{
+        max-width: 450px;
+    }
+    .sponsor-icons-container{
+        width: 30%;
+        padding: 15px 15px;
+        margin: 0 auto;
+    }
+    .sponsor-icons{
+        width: 50px;
+        height: 50px;
+        font-size: 45px; 
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .sponsor-icons{
+        font-size: 40px;
+        padding: 15px 20px;
+        text-align: center;
+        align-items: center;
+    
+    }
+    .sponsor-icons-container{
+        width: 40%;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width : 500px) {
+    .sponsor-icons-container{
+        width: 60%;
+        margin: 0 auto;
+        align-items: center;
+        padding: 25px 0;
+
+
+    }
+    
+}
