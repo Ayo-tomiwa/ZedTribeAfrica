@@ -2,14 +2,15 @@ import React from 'react'
 import './about.css'
 import about_img from '../../assets/about.jpg'
 import { FaCirclePlay } from "react-icons/fa6";
-// Import play_icon from '../../assets/play-icon.png'
 
-const About = () => {
+
+
+const About = ({setPlayState}) => {
   return (
     <div className='about'>
         <div className="about-left">
             <img src={about_img} alt="" className='about-img' />
-            <span className='play-icon'>
+            <span className='play-icon' onClick={()=>{setPlayState(true)}}>
             <FaCirclePlay />
             </span>
         </div>
