@@ -84,3 +84,14 @@
     }
 
 }
+
+@media (max-width: 480px) {
+
+    .program-mentor img,
+    .program-image img{
+        flex-basis: 31%;
+        height: 300px;
+        width: 300px;
+    }
+    
+}

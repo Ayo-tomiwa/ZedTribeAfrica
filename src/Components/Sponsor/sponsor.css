@@ -104,7 +104,15 @@
         margin: 0 auto;
         align-items: center;
         padding: 25px 0;
+    }
 
+    .overlay h1{
+        font-size: 40px;
+    }
+
+    .overlay p{
+        font-size: 17px;
+        max-width: 350px;
 
     }
     

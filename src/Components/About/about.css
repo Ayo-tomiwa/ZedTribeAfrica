@@ -98,3 +98,11 @@
     }
     
 }
+
+@media (max-width: 375px) {
+    .about-img{
+        height: 300px;
+
+    }
+    
+}
