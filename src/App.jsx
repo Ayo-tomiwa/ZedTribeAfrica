@@ -9,12 +9,25 @@ import Testimonials from './Components/Testimonials/testimonials'
 import Contact from './Components/Contact/contact'
 import Footer from './Components/Footer/footer'
 import VideoPlayer from './Components/VideoPlayer/videoPlayer'
+// import {Helmet} from "react-helmet";
+
 
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
 
   return (
+
+    // <>
+    // <Helmet>
+    //   <meta charSet="utf-8" />
+    //   <title>Byte App</title>
+    //   <link rel="canonical" href="http://mysite.com/example" />
+    //   <meta name="description" content="Byte Web App" />
+    //   <link rel="icon" href="icon.png" /> // Add your icon here
+    // </Helmet>
+    // </>
+    
     <div>
       <Navbar/>
       <Hero/>
